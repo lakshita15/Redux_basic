@@ -1,7 +1,6 @@
 import { combineReducers } from "redux";
 import ballReducer from "./balls/BallReducer";
-import batReducer from "./bats/BatReducer";
-
+import batReducer from "./Bats/BatReducer";
 const rootReducer = combineReducers({
     ball:ballReducer,
     bat:batReducer
