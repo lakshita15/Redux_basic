@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
 
    <div className='App'>
-    {/* <BallContainer/> */}
+    <BallContainer/>
     <BatContainer/>
     </div>
     </Provider>
